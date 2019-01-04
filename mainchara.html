@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BEARYTALE</title>
+
+	<!--CSS BOOTSTRAP-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="another.css">
+
+	<!--JS BOOTSTRAP-->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<!--NAVBAR-->
+	<nav class="navbar navbar-expand-lg sticky-top navbar-light bg-white">
+		<a class="navbar-brand" href="#">
+			<img src="pict/pcicon.png" width="145" height="38" alt="pandaclip">
+		</a>
+
+		<div class="collapse navbar-collapse" id="navbarNavDropdown">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home </a>
+				</li>
+				<li class="nav-item dropdown active">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Characters <span class="sr-only">(current)</span>
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="mainchara.html">Main Character</a>
+						<a class="dropdown-item" href="sidechara.html">Side Character</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="galery.html">Galery</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!--CONTENT-->
+	
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<h1 class="display-4">Karakter Utama</h1>
+			<p class="lead">Karakter utama di komik ini adalah Chiwa beserta 3 orang kakaknya yaitu Neva, Popino, dan Pio</p>
+		</div>
+	</div>
+
+	<div class="card-deck">
+		<div class="card text-center" style="width: 18rem;">
+			<img src="pict/neva.png" class="card-img-top" alt="neva">
+			<div class="card-body">
+				<h5 class="card-title">NEVA</h5>
+				<p class="card-text">Neva, Anak pertama. Dia lebih "normal" ketimbang ketiga adiknya. Menjadi pengasuh utama Chiwa sekaligus melakukan semua pekerjaan rumah, sifatnya ke "oneesama"-an dan sedikit yandere. Sangat menyukai daging dan pandai berenang</p>
+
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#biodataNeva">Biodata</button>
+
+			</div>
+		</div>
+		<div class="card text-center" style="width: 18rem;">
+			<img src="pict/popino.png" class="card-img-top" alt="popino">
+			<div class="card-body">
+				<h5 class="card-title">POPINO</h5>
+				<p class="card-text">Anak kedua, Popino. Maniak game online, galge dan action figure. Sifatnya lebih agresif dibandingkan yang lain. keluar rumah hanya untuk membeli salmon dan game. Sering meracuni orang sekitar dan Chiwa untuk membeli figure, dan menjadi sasaran utama amukan Neva</p>
+				
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#biodataPopino">Biodata</button>
+
+			</div>
+		</div>
+		<div class="card text-center" style="width: 18rem;">
+			<img src="pict/pio.png" class="card-img-top" alt="pio">
+			<div class="card-body">
+				<h5 class="card-title">PIO</h5>
+				<p class="card-text">Pio!, anak ketiga. Partner chiwa dalam melakukan "kejahatan". Sifatnya hyperaktif, joyful, jahil. Karakter yang menyumbangkan kegeblekan terbesar ke adiknya. Pio adalah salah satu anima sun bear yang berhasil diselamatkan dari perburuan liar</p>
+
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#biodataPio">Biodata</button>
+
+			</div>
+		</div>
+		<div class="card text-center" style="width: 18rem;">
+			<img src="pict/chiwa.png" class="card-img-top" alt="chiwa">
+			<div class="card-body">
+				<h5 class="card-title">CHIWA</h5>
+				<p class="card-text">Chiwa! Si bungsu, sekaligus maskot pandaclip. Sifatnya polos, cemburuan, teledor, keras kepala, maniak bambu, sering tidur dimana saja, tidak kuat panas (harus selalu ada AC), ribet, mempunyai berbagai cara melakukan life hack. Sangat takut dengan bulldozer, mempunyai nanny pribadi saat tinggal di Sichuan. Memiliki nama lahir xiao pao, lalu berganti menjadi Chiwa.</p>
+
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#biodataChiwa">Biodata</button>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="biodataNeva" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Biodata</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<table>
+						<tr>
+							<td><img src="pict/nevabio.png" id="imagepreview" style="width: 200px; height: 200px;"><td>
+								<td><table class="biodataModal">
+									<tr>
+										<td>Name</td>
+										<td>:</td>
+										<td>NEVA</td>
+									</tr>
+									<tr>
+										<td>Birth</td>
+										<td>:</td>
+										<td>11th June</td>
+									</tr>
+									<tr>
+										<td>Age</td>
+										<td>:</td>
+										<td>17</td>
+									</tr>
+									<tr>
+										<td>From</td>
+										<td>:</td>
+										<td>Artic</td>
+									</tr>
+									<tr>
+										<td>Favorite Item</td>
+										<td>:</td>
+										<td>Meat</td>
+									</tr>
+								</table></td>
+							</tr>
+						</table>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<div class="modal fade" id="biodataPopino" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Biodata</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<table>
+					<tr>
+						<td><img src="pict/popinobio.png" id="imagepreview" style="width: 200px; height: 200px;" ></td>
+						<td><table class="biodataModal" align="center">
+						<tr>
+							<td>Name</td>
+							<td>:</td>
+							<td>POPINO</td>
+						</tr>
+						<tr>
+							<td>Birth</td>
+							<td>:</td>
+							<td>12th June</td>
+						</tr>
+						<tr>
+							<td>Age</td>
+							<td>:</td>
+							<td>16</td>
+						</tr>
+						<tr>
+							<td>From</td>
+							<td>:</td>
+							<td>North America</td>
+						</tr>
+						<tr>
+							<td>Favorite Item</td>
+							<td>:</td>
+							<td>Salmon</td>
+						</tr>
+					</table></td></tr></table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="biodataPio" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Biodata</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+			<div class="modal-body">
+				<table>
+				<tr>
+					<td><img src="pict/piobio.png" id="imagepreview" style="width: 200px; height: 200px;"></td>
+					<td><table class="biodataModal" align="center">
+						<tr>
+							<td>Name</td>
+							<td>:</td>
+							<td>PIO</td>
+						</tr>
+						<tr>
+							<td>Birth</td>
+							<td>:</td>
+							<td>13th June</td>
+						</tr>
+						<tr>
+							<td>Age</td>
+							<td>:</td>
+							<td>15</td>
+						</tr>
+						<tr>
+							<td>From</td>
+							<td>:</td>
+							<td>Kalimantan</td>
+						</tr>
+						<tr>
+							<td>Favorite Item</td>
+							<td>:</td>
+							<td>Honey</td>
+						</tr>
+					</table></td></tr></table>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="modal fade" id="biodataChiwa" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLongTitle">Biodata</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<table>
+						<tr>
+					<td><img src="pict/chiwabio.png" id="imagepreview" style="width: 200px; height: 200px;"><td>
+					<td><table class="biodataModal" align="center">
+						<tr>
+							<td>Name</td>
+							<td>:</td>
+							<td>CHIWA</td>
+						</tr>
+						<tr>
+							<td>Birth</td>
+							<td>:</td>
+							<td>14th June</td>
+						</tr>
+						<tr>
+							<td>Age</td>
+							<td>:</td>
+							<td>14</td>
+						</tr>
+						<tr>
+							<td>From</td>
+							<td>:</td>
+							<td>Sichuan</td>
+						</tr>
+						<tr>
+							<td>Favorite Item</td>
+							<td>:</td>
+							<td>Bamboo</td>
+						</tr>
+					</table></td></tr></table>
+					</div>
+			</div>
+		</div>
+	</div>
+
+
+</body>
+</html>

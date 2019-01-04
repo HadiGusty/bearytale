@@ -1,0 +1,57 @@
+
+/*warna background*/
+body{
+	background-color: #ecf0f1;
+}
+/*perbaiki ukuran carousel*/
+.carousel-inner{
+    width: 100%;
+    height: 480px;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 100%; 
+}
+/*perbaiki posisi card, ing card, dll*/
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --SVG Icons - svgicons.sparkk.fr-- 
+
+.svg-icon {
+  width: 3em;
+  height:3em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+*/
+
+/*.card text-center:hover{
+	width: 130%;
+	height: 130%;
+}*/
